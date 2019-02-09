@@ -21,6 +21,7 @@
 %% -------------------------------------------------------------------
 -module(bitcask_file).
 -compile(export_all).
+-compile(nowarn_export_all).
 -behaviour(gen_server).
 
 -ifdef(PULSE).
