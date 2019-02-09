@@ -21,6 +21,7 @@
 %% -------------------------------------------------------------------
 -module(bitcask_io).
 -compile(export_all).
+-compile(nowarn_export_all).
 
 -ifdef(PULSE).
 -compile({parse_transform, pulse_instrument}).
